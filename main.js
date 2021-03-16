@@ -1,5 +1,7 @@
-let n=Number(prompt("Nhập số: "))
-        if(n%2==0)
-            alert(`${n} là một số chẵn.`)
-        else
-            alert(`${n} là một số lẻ.`)
+function kiemTraSoChan() {
+    let number = document.getElementById("num").value;
+    if (number % 2 == 0)
+        alert(number + " là số chẵn");
+    else
+        alert(number + " là số lẻ");
+}
